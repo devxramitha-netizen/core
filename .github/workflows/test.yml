@@ -1,5 +1,6 @@
-name: 🚀 Pull Request Check 🔍
-on: [pull_request]
+'on':
+  pull_request: null
+  workflow_dispatch: null
 
 jobs:
     unit-test:
